@@ -1,0 +1,37 @@
+.controls {
+
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+
+  a {
+
+    display: inline-block;
+    margin-right: 20px;
+    text-indent: -9999px;
+    vertical-align: top;
+
+    &:hover {
+      opacity: .7;
+      transition: opacity .25s;
+    }
+
+  }
+
+  .play {
+    // background-color: #fff;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color:#222 #222 #222 #00b894;
+  }
+
+  .stop {
+    background-color: #d63031;
+    border: none;
+    height:20px;
+    width:20px;
+  }
+
+}
