@@ -9,15 +9,30 @@ body {
     margin-top: 50px;
 }
 
-.field label {
-    color: #fff;
+.bar {
+    display: flex;
+    align-items: center;
 }
 
-input[type="number"] {
-    border: none;
-    padding: 5px;
-    margin-right: 5px;
-    width: 80px;
+.field {
+
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+    label {
+        color: #fff;
+        margin-right: 10px;
+    }
+
+    input[type="number"] {
+        border: none;
+        padding: 5px;
+        margin-right: 5px;
+        width: 80px;
+    }
+
 }
 
 @import
